@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/logo-cafeteriaJava.ico" type="image/x-icon" />
+    <title>Cafeteria Java - Sobre Nosotros</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+      * {
+        font-family: "Merienda", cursive;
+      }
+    </style>
+  </head>
+  <body style="margin: 0">
+    <header style="background-color: #6e3520; width: 100%; height: 120px">
+      <nav style="width: 80%; margin: auto">
+        <table>
+          <tr>
+            <th style="width: 20%"><a href="/" style="color: white">Inicio</a></th>
+            <th style="width: 20%"><a href="menu.html" style="color: white">Menú</a></th>
+            <th style="width: 10%">
+              <img src="../img/logo-cafeteriaJava.png" alt="logo cafeteria java" style="width: 80%" />
+            </th>
+            <th style="width: 20%">
+              <a href="sobreNosotros.html" style="color: white">Sobre Nosotros</a>
+            </th>
+            <th style="width: 20%"><a href="contactanos.html" style="color: white">Contactanos</a></th>
+          </tr>
+        </table>
+      </nav>
+    </header>
+    <main>
+      <article style="width: 100%">
+        <h2 style="font-size: 75px; text-align: center">Contactanos</h2>
+        <section
+          style="
+            background-color: #6e3520;
+            width: 90%;
+            margin: auto;
+            border-radius: 70px;
+            height: 820px;
+            position: relative;
+            margin-bottom: 118px;
+            color: #edc293;
+          "
+        >
+          <section style="float: left; margin-left: 50px">
+            <h2 style="font-size: 48px">Completa tu información</h2>
+            <br />
+            <form
+              accept-charset="UTF-8"
+              action="action_page.php"
+              autocomplete="off"
+              method="GET"
+              target="_blank"
+              style="font-size: 32px"
+            >
+              <label for="nombre" style="width: 25%; display: inline-block">Nombre: </label>
+              <input name="nombre" id="nombre" type="text" style="font-size: 32px; width: 60%" /> <br />
+              <br />
+              <label for="apellido" style="width: 25%; display: inline-block">Apellido: </label>
+              <input name="apellido" id="apellido" type="text" style="font-size: 32px; width: 60%" /> <br /><br />
+              <label for="correo" style="width: 25%; display: inline-block">Correo:</label>
+              <input name="correo" id="correo" type="email" style="font-size: 32px; width: 60%" /> <br /><br />
+
+              <label for="correo" style="width: 25%; float: left">Mensaje:</label>
+              <textarea style="font-size: 32px; width: 62%; height: 250px"></textarea><br />
+              <div style="width: 100%; text-align: center">
+                <button
+                  type="submit"
+                  value="Submit"
+                  style="
+                    width: 206px;
+                    height: 50px;
+                    background-color: #edc293;
+                    font-size: 22px;
+                    color: #6e3520;
+                    border-radius: 50px;
+                  "
+                >
+                  Enviar
+                </button>
+              </div>
+            </form>
+          </section>
+          <img src="../img/cafe-contacto.png" alt="" style="float: right" />
+        </section>
+      </article>
+      <section style="margin: auto; width: 90%">
+        <h2 style="font-size: 75px; text-align: center">Nuestra Ubicación</h2>
+        <img src="../img/contacto-mapa.png" alt="" style="width: 100%" />
+      </section>
+    </main>
+    <footer
+      style="background-color: #6e3520; text-align: center; width: 90%; margin: auto; border-radius: 70px 70px 0px 0px"
+    >
+      <h2 style="font-size: 48px; color: #edc293; padding-top: 30px; margin-bottom: 10px">Java Café</h2>
+      <table style="width: 30%; margin: auto">
+        <tr>
+          <th>
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="" width="40%" /></a>
+          </th>
+          <th>
+            <a href="https://twitter.com/" target="_blank"><img src="img/x.png" alt="" width="40%" /></a>
+          </th>
+          <th>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="" width="40%" /></a>
+          </th>
+          <th>
+            <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" alt="" width="40%" /></a>
+          </th>
+        </tr>
+      </table>
+      <p style="margin: 10px auto 0px; color: #edc293">&copy; 2024 Todos los derechos reservados - Danilo Calderón</p>
+    </footer>
+  </body>
+</html>
